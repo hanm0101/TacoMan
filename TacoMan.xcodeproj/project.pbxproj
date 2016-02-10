@@ -16,6 +16,7 @@
 		B50FA6861C6B528900122ADE /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6851C6B528900122ADE /* WeekViewController.swift */; };
 		B50FA6881C6B52B200122ADE /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6871C6B52B200122ADE /* DailyViewController.swift */; };
 		B50FA68A1C6B52C300122ADE /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6891C6B52C300122ADE /* MonthViewController.swift */; };
+		B50FA68C1C6B575100122ADE /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA68B1C6B575100122ADE /* WeekTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B50FA6851C6B528900122ADE /* WeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
 		B50FA6871C6B52B200122ADE /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 		B50FA6891C6B52C300122ADE /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		B50FA68B1C6B575100122ADE /* WeekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				B50FA65B1C6B475500122ADE /* Main.storyboard */,
+				B50FA68B1C6B575100122ADE /* WeekTableViewCell.swift */,
 				B50FA6571C6B475500122ADE /* AppDelegate.swift */,
 				B50FA6871C6B52B200122ADE /* DailyViewController.swift */,
 				B50FA6891C6B52C300122ADE /* MonthViewController.swift */,
@@ -265,6 +268,7 @@
 				B50FA6861C6B528900122ADE /* WeekViewController.swift in Sources */,
 				B50FA68A1C6B52C300122ADE /* MonthViewController.swift in Sources */,
 				B50FA6881C6B52B200122ADE /* DailyViewController.swift in Sources */,
+				B50FA68C1C6B575100122ADE /* WeekTableViewCell.swift in Sources */,
 				B50FA6581C6B475500122ADE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
