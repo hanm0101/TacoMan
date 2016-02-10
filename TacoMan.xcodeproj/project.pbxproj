@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B50FA6581C6B475500122ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6571C6B475500122ADE /* AppDelegate.swift */; };
-		B50FA65A1C6B475500122ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6591C6B475500122ADE /* ViewController.swift */; };
 		B50FA65D1C6B475500122ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50FA65B1C6B475500122ADE /* Main.storyboard */; };
 		B50FA65F1C6B475500122ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50FA65E1C6B475500122ADE /* Assets.xcassets */; };
 		B50FA6621C6B475500122ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50FA6601C6B475500122ADE /* LaunchScreen.storyboard */; };
 		B50FA66D1C6B475500122ADE /* TacoManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA66C1C6B475500122ADE /* TacoManTests.swift */; };
 		B50FA6781C6B475500122ADE /* TacoManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6771C6B475500122ADE /* TacoManUITests.swift */; };
+		B50FA6861C6B528900122ADE /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6851C6B528900122ADE /* WeekViewController.swift */; };
+		B50FA6881C6B52B200122ADE /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6871C6B52B200122ADE /* DailyViewController.swift */; };
+		B50FA68A1C6B52C300122ADE /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FA6891C6B52C300122ADE /* MonthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B50FA6541C6B475500122ADE /* TacoMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50FA6571C6B475500122ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B50FA6591C6B475500122ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B50FA65C1C6B475500122ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B50FA65E1C6B475500122ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50FA6611C6B475500122ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		B50FA6731C6B475500122ADE /* TacoManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50FA6771C6B475500122ADE /* TacoManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoManUITests.swift; sourceTree = "<group>"; };
 		B50FA6791C6B475500122ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50FA6851C6B528900122ADE /* WeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		B50FA6871C6B52B200122ADE /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		B50FA6891C6B52C300122ADE /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		B50FA6561C6B475500122ADE /* TacoMan */ = {
 			isa = PBXGroup;
 			children = (
-				B50FA6571C6B475500122ADE /* AppDelegate.swift */,
-				B50FA6591C6B475500122ADE /* ViewController.swift */,
 				B50FA65B1C6B475500122ADE /* Main.storyboard */,
+				B50FA6571C6B475500122ADE /* AppDelegate.swift */,
+				B50FA6871C6B52B200122ADE /* DailyViewController.swift */,
+				B50FA6891C6B52C300122ADE /* MonthViewController.swift */,
+				B50FA6851C6B528900122ADE /* WeekViewController.swift */,
 				B50FA65E1C6B475500122ADE /* Assets.xcassets */,
 				B50FA6601C6B475500122ADE /* LaunchScreen.storyboard */,
 				B50FA6631C6B475500122ADE /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50FA65A1C6B475500122ADE /* ViewController.swift in Sources */,
+				B50FA6861C6B528900122ADE /* WeekViewController.swift in Sources */,
+				B50FA68A1C6B52C300122ADE /* MonthViewController.swift in Sources */,
+				B50FA6881C6B52B200122ADE /* DailyViewController.swift in Sources */,
 				B50FA6581C6B475500122ADE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
