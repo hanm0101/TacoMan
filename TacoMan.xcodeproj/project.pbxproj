@@ -494,6 +494,7 @@
 				B50FA67E1C6B475500122ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50FA67F1C6B475500122ADE /* Build configuration list for PBXNativeTarget "TacoManTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				B50FA6811C6B475500122ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50FA6821C6B475500122ADE /* Build configuration list for PBXNativeTarget "TacoManUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +512,7 @@
 				B50FA6841C6B475500122ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
